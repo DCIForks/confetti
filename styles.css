@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#win {
+  height: 100%;
+  width: 100%;
+  background-image: url(img/confetti.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20vw;
+  color: red;
+}
+
+#win.hide {
+  display: none
+}
+
+button {
+  position: absolute;
+  font-size: 5vw;
+  width: 10em;
+  margin: 0 auto`
+}
